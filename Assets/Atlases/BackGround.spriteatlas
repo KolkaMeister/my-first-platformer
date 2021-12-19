@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BackGround
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 0b8f8fac65c2f134f9296b60e03f9fa4, type: 3}
+    - {fileID: 2800000, guid: 1b5d4330248500843993ab1b9a09d96f, type: 3}
+    - {fileID: 2800000, guid: 61898260c90cb3c4db5cb7e00b0bee32, type: 3}
+    - {fileID: 2800000, guid: c84f3a6b4dab9ab4ab62954fc6fe5650, type: 3}
+    - {fileID: 2800000, guid: 38bea5a6698c4764ca3bb76f0b4d4615, type: 3}
+    - {fileID: 2800000, guid: 5d1048a0e7c30e440aa4448ef8cdc7e6, type: 3}
+    - {fileID: 2800000, guid: 411e996e55e5eee45b62dc491cb69e00, type: 3}
+    - {fileID: 2800000, guid: d25d2e781478d6847ac86a401d8fbca3, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1b5d4330248500843993ab1b9a09d96f, type: 3}
+  - {fileID: 21300000, guid: 61898260c90cb3c4db5cb7e00b0bee32, type: 3}
+  - {fileID: 21300000, guid: 5d1048a0e7c30e440aa4448ef8cdc7e6, type: 3}
+  - {fileID: 21300000, guid: 38bea5a6698c4764ca3bb76f0b4d4615, type: 3}
+  - {fileID: -6505298659582443948, guid: d25d2e781478d6847ac86a401d8fbca3, type: 3}
+  - {fileID: -6018279857378552221, guid: d25d2e781478d6847ac86a401d8fbca3, type: 3}
+  - {fileID: -2749089684739404911, guid: d25d2e781478d6847ac86a401d8fbca3, type: 3}
+  - {fileID: -7718236803453008505, guid: d25d2e781478d6847ac86a401d8fbca3, type: 3}
+  - {fileID: 21300000, guid: c84f3a6b4dab9ab4ab62954fc6fe5650, type: 3}
+  - {fileID: 21300000, guid: 0b8f8fac65c2f134f9296b60e03f9fa4, type: 3}
+  - {fileID: 21300000, guid: 411e996e55e5eee45b62dc491cb69e00, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Cloud1
+  - Cloud2
+  - WaterReflectSmall
+  - CloudBig
+  - WaterReflectLarge_1
+  - WaterReflectLarge_0
+  - WaterReflectLarge_3
+  - WaterReflectLarge_2
+  - Cloud3
+  - BG Image
+  - WaterReflectMedium
+  m_Tag: BackGround
+  m_IsVariant: 0

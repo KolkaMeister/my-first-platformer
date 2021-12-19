@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PerkWindowUI
+  m_Controller: {fileID: 9100000, guid: 595a183fbb82ace419f3da0dd369f062, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9eb5c79a399522b42bb2dac21e2dd8b7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 60a3957284ba60f47a09ecff9d9fdb6e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e9a69a35da450a549ab4e058cebef46b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f5d40a82fbee6048902f3037cc37c91, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 05db47dec71ea374987fd34a39e9bdfd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ac77e8b977095e84598fa7ee08fd51cd, type: 2}

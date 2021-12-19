@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1275191b8a5e046937b82b82cdafb0, type: 3}
+  m_Name: DefsFacade
+  m_EditorClassIdentifier: 
+  itemDefs: {fileID: 11400000, guid: 44a7b9faa11a276428992d37b287f1e7, type: 2}
+  player: {fileID: 11400000, guid: 6cce627c94174964aa9d77b2f7434026, type: 2}
+  throwableItemDefs: {fileID: 11400000, guid: 380608536648d954a9b685cc4fda5a5e, type: 2}
+  healItemsDef: {fileID: 11400000, guid: 2df061a209b30eb43b73790ec47251c5, type: 2}
+  perksDefs: {fileID: 11400000, guid: d61f1cf61c696bc4fbb3cba63dda20c5, type: 2}
+  heroStatsDef: {fileID: 11400000, guid: d2a3c23a09c4a314da2d301764c9e52b, type: 2}
