@@ -11,7 +11,9 @@ public class LocalizationManager
 
     public StringPersistentProperty LocaleKey => localKey;
 
-    public static string[] LocaleNames = new string[] { "ENG","RUS","ESP","FRN"};
+    private static List<string> localeNames = new List<string> { "ENG","RUS","ESP","FRN"};
+
+    public LocaleNames => localeNames;
 
     private LocaleDef localeDef;
 
@@ -28,18 +30,9 @@ public class LocalizationManager
     }
     public void LoadLocale(string key)
     {
-        localKey.Value = key;
-        localeDef = Resources.Load<LocaleDef>($"Locales/{localKey.Value}");
-        if (localeDef == null)
+        if (LocaleNames.Contains(key))
         {
-            localKey.Value = localKey.defaultValue;
-            localeDef = Resources.Load<LocaleDef>($"Locales/{localKey.Value}");
-            localeDic = localeDef.GetData();
-            OnLocaleLoaded?.Invoke();
-
-        }
-        else
-        {
+            localeKey = key;
             localeDef = Resources.Load<LocaleDef>($"Locales/{localKey.Value}");
             localeDic = localeDef.GetData();
             OnLocaleLoaded?.Invoke();
