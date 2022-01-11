@@ -18,6 +18,7 @@ public class BallOfDeathController : MonoBehaviour
         if (balls.Count>0) return;
         if (health.Health <= 0) return;
         var instance=Instantiate(ball, spawnPoints[spawnPointIdnex].position, Quaternion.identity);
+        balls.Add(instance);
         instance.controller = this;
         instance.balls = balls;
         spawnPointIdnex = (int)Mathf.Repeat(spawnPointIdnex+1, spawnPoints.Length) ;
