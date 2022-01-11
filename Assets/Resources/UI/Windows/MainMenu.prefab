@@ -243,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134927988681241}
   key: button_exit
+  addition: 
 --- !u!1 &1658134928111756781
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1658134928111756783}
-  key: menu
+  key: button_menu
+  addition: 
 --- !u!1 &1658134928228672683
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134928411244511}
   key: button_start
+  addition: 
 --- !u!1 &1658134928751152270
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,6 +534,7 @@ GameObject:
   - component: {fileID: 1658134928751152271}
   - component: {fileID: 1658134928751153008}
   - component: {fileID: 1658134928751153009}
+  - component: {fileID: 1272360593}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -587,6 +591,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 008260b6991f43843ae869140101f4b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1272360593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658134928751152270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1dd34461488234ea7368141447a452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1658134928794618231
@@ -684,6 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134928794618233}
   key: button_exit
+  addition: 
 --- !u!1 &1658134928811102025
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134928811102027}
   key: button_start
+  addition: 
 --- !u!1 &1658134928828031053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134929100571093}
   key: button_options
+  addition: 
 --- !u!1 &1658134929193298475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,6 +1349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1658134929504995958}
   key: button_options
+  addition: 
 --- !u!1 &6352761878783113516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1425,6 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 5288998968158306936}
   key: button_languages
+  addition: 
 --- !u!1 &7203606832297501625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 6466305065159758455}
   key: button_languages
+  addition: 
 --- !u!1 &8594790223416280618
 GameObject:
   m_ObjectHideFlags: 0
