@@ -16,7 +16,7 @@ public class LocaleWindow : AnimatedWindow
     }
     private void SpawnLocaleItems()
     {
-        var keys = LocalizationManager.LocaleNames;
+        var keys = LocalizationManager.LocaleNames.ToArray();
         dataGroup.SetData(keys);
     }
     public void BackToMenu()

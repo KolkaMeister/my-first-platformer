@@ -16,10 +16,11 @@ public class ProjectileLauncher : MonoBehaviour
     [SerializeField] public GameObject target;
     private List<Projectile> projectiles = new List<Projectile>();
 
+    private Coroutine launchCoroutine;
     [ContextMenu("Launch")]
     public void StartLaunching()
     {
-        StartCoroutine(Launch());
+        launchCoroutine = StartCoroutine(Launch());
     }
     private IEnumerator Launch()
     {
@@ -41,5 +42,8 @@ public class ProjectileLauncher : MonoBehaviour
             yield return new WaitForSeconds(launchDelay);
         }    
     }
-
+    public void StopLaunch()
+    {
+        StopCoroutine(launchCoroutine);
+    }
 }

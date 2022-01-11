@@ -33,6 +33,7 @@ public class GeneralUIController : MonoBehaviour
         windowManagerButton.SetActive(true);
 #endif
         locker.Check();
+        isPaused = false;
     }
     public void OpenStatsWindow()
     {

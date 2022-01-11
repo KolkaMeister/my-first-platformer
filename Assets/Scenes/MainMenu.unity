@@ -617,6 +617,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 703025558}
     m_Modifications:
+    - target: {fileID: 1488809764, guid: 5ce11e7e016e3cf4da62cb0fda854cf5, type: 3}
+      propertyPath: key
+      value: button_menu
+      objectReference: {fileID: 0}
     - target: {fileID: 1235979674382238221, guid: 5ce11e7e016e3cf4da62cb0fda854cf5,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -809,6 +813,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce11e7e016e3cf4da62cb0fda854cf5, type: 3}
+--- !u!1 &1272360592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1658134928751152270, guid: 5ce11e7e016e3cf4da62cb0fda854cf5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1272360591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1272360593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272360592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1dd34461488234ea7368141447a452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1602132353
 GameObject:
   m_ObjectHideFlags: 0

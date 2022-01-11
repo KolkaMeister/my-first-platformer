@@ -47,4 +47,8 @@ MonoBehaviour:
   - Key: continue
     Value: "Continuer\r"
   - Key: button_trade
-    Value: Commerce
+    Value: "Commerce\r"
+  - Key: loading
+    Value: "\u0421hargement\r"
+  - Key: pause
+    Value: Pause

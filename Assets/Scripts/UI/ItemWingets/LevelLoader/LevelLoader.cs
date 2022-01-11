@@ -46,10 +46,10 @@ public class LevelLoader : MonoBehaviour
         }
         animator.SetTrigger(Hide);
         Time.timeScale = 1;
-        var her = FindObjectOfType<Hero>();
-        if (her!=null)
+        var hero = FindObjectOfType<Hero>();
+        if (hero!=null)
         {
-            her.GetComponent<PlayerInput>().enabled = true;
+            hero.GetComponent<PlayerInput>().enabled = true;
         }
     }
 

@@ -23,7 +23,8 @@ public class InGameLocaleWindow : AnimatedWindow
     }
     private void SpawnLocaleItems()
     {
-        dataGroup.SetData(LocalizationManager.LocaleNames);
+        var names = LocalizationManager.LocaleNames.ToArray();
+        dataGroup.SetData(names);
     }
 
     public void BackToMenu()

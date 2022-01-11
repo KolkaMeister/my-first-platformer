@@ -47,4 +47,8 @@ MonoBehaviour:
   - Key: button_upgrade
     Value: "Upgrade\r"
   - Key: button_trade
-    Value: Trade
+    Value: "Trade\r"
+  - Key: loading
+    Value: "Loading\r"
+  - Key: pause
+    Value: Pause

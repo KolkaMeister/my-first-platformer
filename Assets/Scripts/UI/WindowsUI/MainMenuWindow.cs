@@ -17,10 +17,10 @@ public class MainMenuWindow : AnimatedWindow
     }
     public void OpenOptions()
     {
-        var window = Resources.Load<GameObject>("UI/Windows/SettingsWindow");
-        SpawnUtils.CreateWindow<GameObject>(window,out var _ins);
         CloseAction = () =>
         {
+            var window = Resources.Load<GameObject>("UI/Windows/SettingsWindow");
+            SpawnUtils.CreateWindow<GameObject>(window,out var _ins);
             Destroy(gameObject);
         };
         Close();
@@ -39,18 +39,16 @@ public class MainMenuWindow : AnimatedWindow
     }
     public void LanguageSettings()
     {
-        var window = Resources.Load<GameObject>("UI/Windows/LocaleWindow");
-        SpawnUtils.CreateWindow<GameObject>(window, out var _ins);
         CloseAction = () =>
         {
-            Destroy(gameObject);
+        var window = Resources.Load<GameObject>("UI/Windows/LocaleWindow");
+        SpawnUtils.CreateWindow<GameObject>(window, out var _ins);
+        Destroy(gameObject);
         };
         Close();
     }
     public override void OnCloseAnimationComplete()
     {
-
-        CloseAction?.Invoke();
         base.OnCloseAnimationComplete();
     }
 } 

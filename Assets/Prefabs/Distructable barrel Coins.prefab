@@ -270,6 +270,8 @@ MonoBehaviour:
   onChange:
     m_PersistentCalls:
       m_Calls: []
+  oldValue: 0
+  isDead: 0
 --- !u!60 &1566184117
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -317,6 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2977226135366198428}
   Prefab: {fileID: 647260989646287308, guid: 280b018e1a8fdd7439c83899a954edef, type: 3}
+  usePool: 0
 --- !u!114 &988683978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2977226135366198428}
   Prefab: {fileID: 2864917530531904, guid: 9234b82b915dbc5448c07eb034b4a44e, type: 3}
+  usePool: 0
 --- !u!114 &1712405944
 MonoBehaviour:
   m_ObjectHideFlags: 0

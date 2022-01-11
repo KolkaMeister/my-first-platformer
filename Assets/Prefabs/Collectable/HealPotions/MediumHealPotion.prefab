@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 8517216977155569118}
   - component: {fileID: 5590785196715882706}
   - component: {fileID: 5590785196715882709}
-  - component: {fileID: 1091514900}
   - component: {fileID: 601201339}
-  - component: {fileID: 5425594299349658939}
+  - component: {fileID: 7100584257677715776}
   m_Layer: 0
   m_Name: MediumHealPotion
   m_TagString: Untagged
@@ -135,28 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5590785196715882705}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5590785196715882706}
-        m_MethodName: SetClip
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Collect
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &5590785196715882706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,20 +197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 5590785196715882708}
---- !u!114 &1091514900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590785196715882708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fb2e4f2037014a4da8d7e30c79637eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 5590785196715882703}
-  Prefab: {fileID: 5901000369041367962, guid: a87b9fc7f3fdd3a448ef90a37fe6eb73, type: 3}
 --- !u!114 &601201339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,9 +215,9 @@ MonoBehaviour:
   OnEmpty:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1091514900}
-        m_MethodName: Spawn
-        m_Mode: 1
+      - m_Target: {fileID: 5590785196715882705}
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -263,7 +226,29 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5425594299349658939
+      - m_Target: {fileID: 7100584257677715776}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Collect
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5590785196715882706}
+        m_MethodName: SetClip
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Collect
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7100584257677715776
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,8 +257,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5590785196715882708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fb2e4f2037014a4da8d7e30c79637eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aecab518aa5234468912bddbbbfe615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
-  Prefab: {fileID: 5901000369041367962, guid: a87b9fc7f3fdd3a448ef90a37fe6eb73, type: 3}
+  source: {fileID: 0}
+  volume: 1
+  clips:
+  - id: Collect
+    audioClip: {fileID: 8300000, guid: 491545707e29840478ba753625934fc1, type: 3}

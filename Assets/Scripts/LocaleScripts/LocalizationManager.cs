@@ -13,7 +13,7 @@ public class LocalizationManager
 
     private static List<string> localeNames = new List<string> { "ENG","RUS","ESP","FRN"};
 
-    public LocaleNames => localeNames;
+    public static List<string> LocaleNames => localeNames;
 
     private LocaleDef localeDef;
 
@@ -32,7 +32,7 @@ public class LocalizationManager
     {
         if (LocaleNames.Contains(key))
         {
-            localeKey = key;
+            LocaleKey.Value = key;
             localeDef = Resources.Load<LocaleDef>($"Locales/{localKey.Value}");
             localeDic = localeDef.GetData();
             OnLocaleLoaded?.Invoke();
