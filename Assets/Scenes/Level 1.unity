@@ -1370,9 +1370,7 @@ MonoBehaviour:
   m_AnimatedTarget: {fileID: 514162445}
   m_LayerIndex: 0
   m_ShowDebugText: 0
-  m_ChildCameras:
-  - {fileID: 1128523778}
-  - {fileID: 1662681171}
+  m_ChildCameras: []
   m_Instructions:
   - m_FullHash: 1823207173
     m_VirtualCamera: {fileID: 1128523778}
