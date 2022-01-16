@@ -2237,7 +2237,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[23] =
 	{ (Il2CppRGCTXDataType)2, 27386 },
 	{ (Il2CppRGCTXDataType)1, 27387 },
 	{ (Il2CppRGCTXDataType)2, 27387 },
-	{ (Il2CppRGCTXDataType)1, 29361 },
+	{ (Il2CppRGCTXDataType)1, 29359 },
 	{ (Il2CppRGCTXDataType)1, 27408 },
 	{ (Il2CppRGCTXDataType)2, 27408 },
 	{ (Il2CppRGCTXDataType)2, 27451 },
@@ -2252,7 +2252,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[23] =
 	{ (Il2CppRGCTXDataType)3, 27719 },
 	{ (Il2CppRGCTXDataType)3, 27720 },
 	{ (Il2CppRGCTXDataType)3, 27721 },
-	{ (Il2CppRGCTXDataType)2, 29362 },
+	{ (Il2CppRGCTXDataType)2, 29360 },
 	{ (Il2CppRGCTXDataType)3, 27722 },
 };
 extern const Il2CppCodeGenModule g_Unity_TimelineCodeGenModule;

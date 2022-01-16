@@ -49,9 +49,5 @@ public class TotemMobAI : MonoBehaviour
         }
         currentCoroutine=StartCoroutine(coroutine);
     }
-    private IEnumerator Test()
-    {
-        yield return new WaitForSeconds(5);
-    }
 
 }
